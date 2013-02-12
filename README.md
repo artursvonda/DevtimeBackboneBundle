@@ -172,7 +172,7 @@ And make sure the other lines are AFTER your jquery lib is included:
 
 ```jinja
         {% block javascripts %}
-            <script src="http://code.jquery.com/jquery-1.8.3.min.js" type="text/javascript"></script>
+            <script src="http://code.jquery.com/jquery-1.9.1.min.js" type="text/javascript"></script>
             <script src="{{ asset('/bundles/acmedemo/js/underscore.js') }}" type="text/javascript"></script>
             <script src="{{ asset('/bundles/acmedemo/js/backbone.js') }}" type="text/javascript"></script>
             <script src="{{ asset('/bundles/acmedemo/js/app.js') }}" type="text/javascript"></script>
